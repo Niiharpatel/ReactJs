@@ -1,0 +1,12 @@
+.plant-navbar {
+  background-color: rgb(10, 10, 10);
+}
+
+.plant-main {
+  background-color: white;
+  padding: 70px 0px 70px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 60px 30px;
+}

@@ -1,0 +1,21 @@
+.main {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 15px 0px;
+}
+
+.card_img {
+  /* border-radius: 10px; */
+  width: 100%;
+}
+
+.card_det {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}

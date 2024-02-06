@@ -1,0 +1,29 @@
+[
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant6-free-img.jpg",
+    "name": "Beautiful Plant Varieties",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "",
+    "description3": "Air purifying",
+    "link": "SEE COLLECTION"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus2-free-img.jpg",
+    "name": "Trendy Cactus Varieties",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "",
+    "description3": "Air purifying",
+    "link": "SEE COLLECTION"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant4-free-img.jpg",
+    "name": "Gardening Accessories",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "",
+    "description3": "Plant accessories",
+    "link": "SEE COLLECTION"
+  }
+]

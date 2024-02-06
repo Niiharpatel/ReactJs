@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 10vw;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maincontent {
+  width: 90vw;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.com4-main {
+  background-color: white;
+}
+
+.com4-flex-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.com4-flex-box img {
+  cursor: pointer;
+  height: 398px;
+  width: 398px;
+  filter: contrast(50%);
+  transition: 0.3s all ease;
+}
+
+.com4-flex-box img:hover {
+  filter: contrast(100%);
+}

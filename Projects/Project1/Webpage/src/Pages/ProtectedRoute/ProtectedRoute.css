@@ -1,0 +1,11 @@
+.alert {
+  position: relative;
+  width: 33%;
+  min-height: 100px;
+  max-height: 400px;
+  margin-top: 50px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  top: 30%;
+}

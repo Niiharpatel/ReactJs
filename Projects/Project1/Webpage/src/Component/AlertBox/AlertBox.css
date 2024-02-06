@@ -1,0 +1,32 @@
+.alert-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 110px 0px;
+}
+
+.alert-primary {
+  background-color: transparent !important;
+  color: black !important;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 50px 50px !important;
+}
+
+.alert-heading {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 45px !important;
+  color: #cc0000 !important;
+}
+
+.alert-link {
+  text-decoration: none;
+  color: #161f0f !important;
+}
+
+.alert-main p {
+  border: 1px solid #af9898;
+  width: fit-content;
+  padding: 10px;
+}

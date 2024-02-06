@@ -1,0 +1,18 @@
+.sidebar1 {
+  width: 10vw;
+  height: 200px;
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontent1 {
+  width: 90vw;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

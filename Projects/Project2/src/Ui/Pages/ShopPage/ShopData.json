@@ -1,0 +1,43 @@
+[
+  {
+    "img": "../../../../images/prod-2.jpg",
+    "product": "Gin",
+    "name": "Jim Beam Kentucky",
+    "price": "$69.00",
+    "tag": "Best Seller"
+  },
+  {
+    "img": "../../../../images/prod-3.jpg",
+    "product": "Rum",
+    "name": "Citadelle",
+    "price": "$49.00",
+    "tag": "New Arrival"
+  },
+
+  {
+    "img": "../../../../images/prod-5.jpg",
+    "product": "Whiskey",
+    "name": "Black Label",
+    "price": "$49.00"
+  },
+  {
+    "img": "../../../../images/prod-6.jpg",
+    "product": "Tequila",
+    "name": "Macallan",
+    "price": "$49.00"
+  },
+  {
+    "img": "../../../../images/prod-7.jpg",
+    "product": "Vodka",
+    "name": "Old Monk",
+    "price": "$49.00"
+  },
+  {
+    "img": "../../../../images/prod-1.jpg",
+    "product": "Brandy",
+    "name": "Black Label",
+    "price": "$49.00",
+    "saleprice": "$69.00",
+    "tag": "Sale"
+  }
+]

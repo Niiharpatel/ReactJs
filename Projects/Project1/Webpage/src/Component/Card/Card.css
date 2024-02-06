@@ -1,0 +1,145 @@
+.Cardmain {
+  border: none;
+  border-radius: 16px;
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 15px 0px;
+  padding-bottom: 0px;
+  margin-inline: 20px;
+  padding-inline: 0px !important;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-flex {
+  background-color: #f9f9f9;
+  padding: 70px 0px 70px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Cardmain:hover {
+  transition: 0.2s ease-in-out all;
+  box-shadow: 0px 0px 18px 8px rgb(168, 165, 165);
+}
+
+img {
+  height: 368px;
+  width: 100%;
+}
+
+.card_det {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 237, 243, 255);
+}
+
+.card_det::before {
+  content: "";
+  height: 0.5px;
+  display: inline-block;
+  background-color: #bbabab;
+}
+
+.inner-det {
+  padding-top: 15px;
+  padding-left: 20px;
+  margin-left: 10px;
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+}
+
+.inner-det p {
+  margin-bottom: 0px !important;
+  font-family: inherit;
+  color: rgb(29, 27, 27);
+  line-height: 25px;
+}
+
+.card-desc3 {
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+  opacity: 0.6;
+  color: #4d4f48;
+}
+
+.card-price {
+  font-weight: 800;
+  font-size: 15px;
+  color: #4d4f48;
+}
+
+.card_det-link {
+  margin-top: 25px;
+  color: red !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.inner-det a {
+  text-decoration: none;
+  transition: 1s all ease;
+}
+
+.inner-det a:hover {
+  text-decoration: revert;
+  text-decoration-color: red;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+.inner-det h4 {
+  font-weight: 700;
+  font-size: 1.222rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card_det-link {
+  width: fit-content;
+}
+
+.cart-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 7px 4px gainsboro;
+  display: none;
+}
+
+.cart-logo a {
+  color: black;
+}
+
+.Cardmain:hover .cart-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 7px 4px gainsboro;
+}
+
+.cart-logo abbr[title] {
+  color: black !important;
+}

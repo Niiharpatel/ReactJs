@@ -1,0 +1,56 @@
+.Com1-main {
+  background-color: #ffffff;
+  padding: 0px 40px 104px 0px;
+}
+
+.Com1-main .flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-box {
+  flex: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.left-box h1 {
+  font-size: 4.5rem;
+  font-weight: normal;
+  font-family: "Unna", serif;
+  padding-bottom: 170px;
+}
+
+.right-box {
+  flex: 1;
+  padding: 40px 0px;
+}
+
+.right-box .line1 {
+  margin-top: 30px;
+}
+
+.right-box .line1 h3 {
+  font-family: fangsong;
+  font-size: 1.85rem;
+}
+
+.right-box .line2 p {
+  padding-right: 197px;
+  padding-top: 20px;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  vertical-align: baseline;
+  color: gray;
+}
+
+.right-box .des-line::before {
+  content: "";
+  width: 80px;
+  height: 0.5px;
+  display: inline-block;
+  background-color: rgb(112, 107, 107);
+}

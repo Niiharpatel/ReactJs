@@ -1,0 +1,346 @@
+[
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant6-free-img.jpg",
+    "name": "Rattle Snake Tail",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$45.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus2-free-img.jpg",
+    "name": "Cleistocactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$25.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant4-free-img.jpg",
+    "name": "Piorro Quisquam",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$20.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant3-free-img.jpg",
+    "name": "Boncellensis Secullant",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$34.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant1-free-img.jpg",
+    "name": "Money Plant",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$20.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus6-free-img.jpg",
+    "name": "Star Cactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$30.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus4-free-img.jpg",
+    "name": "Old Lady Cactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$12.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant5-free-img.jpg",
+    "name": "Green Soil Lotus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$34.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus5-free-img.jpg",
+    "name": "Mini Astrophytum",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$45.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus1-free-img.jpg",
+    "name": "Mini San Pedro Cactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$32.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant2-free-img.jpg",
+    "name": "Aluminum Plant",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$45.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-19-400x600.jpg",
+    "name": "Aralia Ming",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$28.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-4-400x600.jpg",
+    "name": "Bird of Paradise",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$24.90",
+    "description3": "Ceramic pots",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-8-400x600.jpg",
+    "name": "Birdnest Japanese",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$84.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-accessories-product-featured-img-3-400x600.jpg",
+    "name": "Bypass Secateur",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$48.0",
+    "description3": "Plant accessories",
+    "category": "Accessories"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-7-400x600.jpg",
+    "name": "Calathea Beauty Star",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$79.0",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-17-400x600.jpg",
+    "name": "Alocasia Regal Shield",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$20.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-18-400x600.jpg",
+    "name": "Calathea Rufibarba",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$10.0",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-20-400x600.jpg",
+    "name": "Dracaena Lisa",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$11.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-10-400x600.jpg",
+    "name": "Euphorbia Ingens",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$10.4",
+    "description3": "Ceramic pots",
+    "category": "plant"
+  },
+  {
+    "img": "https://media.istockphoto.com/id/1372896724/photo/potted-banana-plant-isolated-on-gray-background.jpg?s=612x612&w=0&k=20&c=PyoMIpl6YipYzgLB651Pe8V9De8zBnNVeYjjogzYPgg=",
+    "name": "Banana Tree",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$12.0",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-2-400x600.jpg",
+    "name": "Ficus Decora Burgundy",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$89.0",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-6-400x600.jpg",
+    "name": "Ficus Decora Cabernet",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$12.4",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-9-400x600.jpg",
+    "name": "Golden Pothos Pole",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$74.0",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-7-400x600.jpg",
+    "name": "Hoya Obovatum",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$79.0",
+    "description3": "Indoor Plants",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-14-400x600.jpg",
+    "name": "Monstera Deliciosa",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$224.90",
+    "description3": "Air purifying",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-13-400x600.jpg",
+    "name": "Pachira Braid",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$74.90",
+    "description3": "Ceramic pots",
+    "category": "plant"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-12-400x600.jpg",
+    "name": "Peperomia Lemon Lime",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$32.90",
+    "description3": "Low maintenance",
+    "category": "plant"
+  },
+
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-accessories-product-featured-img-4-400x600.jpg",
+    "name": "Straight Blade Scissor",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$24.90",
+    "description3": "Plant accessories",
+    "category": "Accessories"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-accessories-product-featured-img-1-400x600.jpg",
+    "name": "Transplanter with Plastic Sleeve",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$18.90",
+    "description3": "Plant accessories",
+    "category": "Accessories"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-accessories-product-featured-img-2-400x600.jpg",
+    "name": "Trowel with Plastic Sleeve",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$20.90",
+    "description3": "Plant accessories",
+    "category": "Accessories"
+  },
+  {
+    "img": "https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/plants-ecommerce-product-featured-img-16-400x600.jpg",
+    "name": "Zz Plants",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$124.90",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://decorsale.net/wp-content/uploads/2019/01/cactus3-free-img.jpg",
+    "name": "Ball Cactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$15.00",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1509645470620-c9c349934693?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "name": "Green Cactus",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$12.00",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDUxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
+    "name": "Aloe Vera",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$7.00",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://5.imimg.com/data5/SELLER/Default/2021/10/TH/WQ/ZW/117123047/61q4khoaw2l-sl1500--500x500.jpg",
+    "name": "Green Zamioculcas",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$10.00",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://5.imimg.com/data5/SELLER/Default/2021/10/DV/ZC/BK/86364218/indoor-money-plant-500x500.jpg",
+    "name": "Epipremnum Aureum",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$3.60",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  },
+  {
+    "img": "https://themewagon.github.io/alazea/img/bg-img/40.png",
+    "name": "Cactus Flower",
+    "description1": "Luctus nec ullamcorper mattis,",
+    "description2": "pulvinar dapibus leo",
+    "price": "$10.99",
+    "description3": "Herbs seeds",
+    "category": "plant"
+  }
+]

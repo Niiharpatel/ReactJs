@@ -1,0 +1,91 @@
+.footer-main .footer-bg .line-1 li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-main .footer-bg .line-1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-main .footer-bg {
+  background-color: #141a0f;
+}
+
+.footer-main .footer-bg .line-1 {
+  font-size: 0.875rem;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.footer-main .footer-bg .box-2 .line-2 h4 {
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Unna", serif;
+  line-height: 1.2em;
+  padding-top: 72px;
+}
+
+.footer-main .footer-bg .box-2 .line-3 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.footer-main .footer-bg .box-2 .line-3 input {
+  padding: 0.7em;
+  width: 400px;
+  height: auto;
+  outline: none;
+}
+
+.footer-main .footer-bg .box-2 .line-3 button {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  color: #f9f9f9;
+  border: 1px solid transparent;
+  font-weight: 400;
+}
+
+.footer-main .footer-bg .box-2 .line-3 button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.2s ease-in all;
+}
+
+.footer-main .footer-bg .box-2 .line-4 {
+  text-align: center;
+  letter-spacing: 34px;
+  padding-top: 55px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-main .footer-bg .box-2 .line-4 a svg:hover {
+  stroke: white;
+}
+
+.footer-main .footer-bg .box-2 .footer-bottom {
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-main .box-2 .footer-bottom .para {
+  text-align: center;
+  color: #f9f9f9;
+  margin-bottom: 0px;
+  padding-block: 40px;
+}

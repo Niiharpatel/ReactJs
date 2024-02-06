@@ -1,0 +1,25 @@
+.bn5 {
+  border-color: #ffffff;
+  cursor: pointer;
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: black;
+  background-image: linear-gradient(45deg, transparent 50%, #000000 50%);
+  background-position: 25%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+  transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.bn5:hover {
+  color: #ffffff;
+  background-position: 100%;
+}
+
+.reg-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

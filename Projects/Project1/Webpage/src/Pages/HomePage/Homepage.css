@@ -1,0 +1,59 @@
+.main {
+  background-color: #f9f9f9;
+}
+
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/09/hero-section-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  /* border-radius: 0px 0px 70px 70px; */
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* =================== Home Page =================== */
+
+.heading1 h1 {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: normal;
+  font-family: "Unna", serif;
+}
+
+.heading2 h1 {
+  color: white;
+  font-size: 4.5rem;
+  font-weight: normal;
+  font-family: "Unna", serif;
+}
+
+.home-content h6 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Unna", serif;
+  padding-block-end: 30px;
+}
+
+.btn-hompage button {
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+
+.btn-hompage button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: 0.3s ease-in-out all;
+}

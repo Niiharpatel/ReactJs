@@ -1,0 +1,92 @@
+.Com3-main {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.Com3-flex-box {
+  display: flex;
+  padding-top: 60px;
+}
+
+.Com3-left-box {
+  flex: 0.5;
+}
+
+.Com3-right-box {
+  flex: 1;
+}
+
+.pad-box {
+  padding-right: 128px;
+}
+
+.Com3-left-box h5 {
+  font-family: auto;
+  letter-spacing: 2px;
+  color: #4d4f48;
+}
+
+.Com3-right-box .line-2 p {
+  color: #4d4f48;
+}
+
+.Com3-right-box .line-3 p {
+  color: #4d4f48;
+}
+
+.Com3-right-box .line-4 .logo {
+  padding: 10px 0px 10px 0px;
+}
+
+.Com3-right-box .line-4 .logo i {
+  font-size: 33px;
+  color: #d6cfcf;
+}
+
+.Com3-right-box .line-4 .para h6 {
+  color: var(--e-global-color-astglobalcolor2);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-right: 25px;
+}
+
+.Com3-right-box .line-4 .para {
+  padding-right: 128px;
+}
+
+.Com3-right-box .line-4 .user-flex-box {
+  display: flex;
+  gap: 10px;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.Com3-right-box
+  .line-4
+  .user-flex-box
+  .user-logo-box
+  .logo-outer-div
+  .user-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Com3-right-box .line-4 .user-flex-box .user-logo-box .logo-outer-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.Com3-right-box .line-4 .user-flex-box .user-name-box .about-user-name {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Com3-right-box .line-4 .user-flex-box .user-name-box .user-job {
+  font-size: 13px;
+  color: #4d4f48;
+}

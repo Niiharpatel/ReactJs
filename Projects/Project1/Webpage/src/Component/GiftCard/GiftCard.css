@@ -1,0 +1,49 @@
+.giftcard-bgimg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+    url("https://websitedemos.net/plant-shop-02/wp-content/uploads/sites/931/2021/08/footer-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.giftcard-content {
+  text-align: center;
+  padding: 200px 0px;
+}
+
+.giftcard-content-line1 h6 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: auto;
+  margin-bottom: 20px;
+}
+
+.giftcard-content-line2 h3 {
+  font-size: 72px;
+  font-family: "Unna", serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.giftcard-content-line3 p {
+  color: white;
+  font-family: inherit;
+  margin-bottom: 30px;
+}
+
+.giftcard-content-line4 button {
+  border: none;
+  padding: 10px 25px;
+  border: 2px solid transparent;
+  background-color: white;
+  transition: 0.3s all ease;
+  font-weight: 600;
+  color: rgba(36, 32, 32, 0.986);
+}
+
+.giftcard-content-line4 button:hover {
+  border: 2px solid white;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: white;
+}

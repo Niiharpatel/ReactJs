@@ -1,0 +1,78 @@
+.testimonial-heading {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.testimonial-heading h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Unna", serif;
+}
+
+.testimonial-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0px 110px 0px;
+}
+
+.testi-main {
+  width: 400px;
+  height: 210px;
+}
+
+.testi-quote {
+  text-align: center;
+  font-size: 30px;
+  color: #d6cfcf;
+}
+
+.comments {
+  text-align: center;
+}
+
+.comments p {
+  color: var(--e-global-color-astglobalcolor2);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.user-pic-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-box .user-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-box .user-pic img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.user-name {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.user-name p {
+  color: rgb(83, 79, 79);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.testimonial-bg {
+  background-color: #f9f9f9;
+}

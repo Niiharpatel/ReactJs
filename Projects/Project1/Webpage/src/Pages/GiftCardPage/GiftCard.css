@@ -1,0 +1,54 @@
+/* .gift-card-bgimg {
+  background-image: url("../../../public/images/pexels-oleksandr-tiupa-192136.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+} */
+/* .gift-card-bgimg:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+} */
+.giftcard-bg {
+  background-image: url("https://images.pexels.com/photos/1454794/pexels-photo-1454794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  padding: 85px 85px;
+  width: fit-content;
+  background-position: center;
+  background-size: cover;
+}
+.giftcard-content-fix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black !important;
+}
+
+.giftcard-btn .btn {
+  background-color: #1e2c12;
+  font-weight: 600;
+  color: aliceblue;
+  outline: none;
+  border: 0.5px solid rgb(6, 48, 6);
+  border-radius: 0px;
+}
+
+.giftcard-btn .btn:hover {
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: black;
+  font-weight: 600;
+}
+
+.giftcard-btn {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}

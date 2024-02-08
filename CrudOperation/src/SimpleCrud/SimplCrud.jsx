@@ -9,6 +9,10 @@ function SimplCrud() {
     city: "",
   });
 
+  const inputHandler = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
   // ================ READ ========================
   let [arr, setArr] = useState([]);
 
@@ -59,7 +63,8 @@ function SimplCrud() {
         type="text"
         value={state?.name}
         name="name"
-        onChange={(e) => setState({ ...state, name: e?.target?.value })}
+        onChange={inputHandler}
+        // onChange={(e) => setState({ ...state, name: e?.target?.value })}
       />
       <br />
       <br />
@@ -68,7 +73,9 @@ function SimplCrud() {
         type="text"
         value={state?.city}
         name="city"
-        onChange={(e) => setState({ ...state, city: e?.target?.value })}
+        onChange={inputHandler}
+
+        // onChange={(e) => setState({ ...state, city: e?.target?.value })}
       />
       {/* <h1>{state.name}</h1>
       <h1>{state.city}</h1> */}

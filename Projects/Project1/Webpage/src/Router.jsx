@@ -35,7 +35,7 @@ export default function Router() {
               element={<ProtectedRoute component={<Contact_Page />} />}
             />
             <Route path="/LoginForm" element={<LoginForm />} />
-            <Route path="/alertbox" element={<AlertBox />} />
+            <Route path="/alert" element={<AlertBox />} />
             <Route path="/giftcard" element={<GiftCard />} />
             <Route path="*" element={<Error_404 />} />
           </Routes>

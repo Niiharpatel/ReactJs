@@ -9,7 +9,7 @@ export default function ProtectedRoute({ component }) {
 
   useEffect(() => {
     if (!user) {
-      navigate("/alertbox");
+      navigate("/alert");
     }
   }, []);
   return <>{component}</>;

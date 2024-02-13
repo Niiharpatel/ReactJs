@@ -7,14 +7,14 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/jokes")
+      .get("/api/jokes")
       .then((response) => {
         setJokes(response.data);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  });
 
   return (
     <>

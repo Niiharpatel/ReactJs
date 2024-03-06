@@ -16,7 +16,7 @@ export const getAllCart = createAsyncThunk("cart/getAllCart", () => {
       authorization: `Berar ${JSON.parse(localStorage.getItem("token"))}`,
     },
   }).then((resData) => {
-    console.log("🚀 ~ file: cartSlice.js:19 ~ getAllCart ~ resData:", resData);
+    console.log("resData:", resData);
     return resData?.data?.data[0]?.products || [];
   });
 });
@@ -28,7 +28,6 @@ const cartSlice = createSlice({
     addToCart: (state, action) => {
       state.cart.push(action.payload);
       console.log("🚀 ~ file: cartSlice.js:29 ~ action:", action.payload);
-      console.log("🚀 ~ file: cartSlice.js:29 ~ state:", state.cart[0]);
     },
   },
   extraReducers: (builder) => {

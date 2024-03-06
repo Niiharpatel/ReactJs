@@ -29,13 +29,6 @@ export default function RegistrationPage() {
 
   function getRegData(e) {
     e?.preventDefault();
-    // let data = {
-    //   ...user,
-    //   address: [add],
-    // };
-    // console.log("getRegData  data: ", data);
-    // localStorage.setItem("user", JSON.stringify(data));
-    // navigate("/login");
 
     axios({
       method: "post",

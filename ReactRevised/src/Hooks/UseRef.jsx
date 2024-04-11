@@ -1,4 +1,4 @@
-// import React, { useEffect, useRef, useState } from "react";
+// import React, { useEffect, useRef, useState } from 'react';
 
 // export default function UseRef() {
 //   const [count, setcount] = useState(0);
@@ -23,27 +23,27 @@
 
 // ================================== UseCase - 2 =============================================
 
-import React, { useEffect, useRef, useState } from "react";
+// import React, { useEffect, useRef, useState } from "react";
 
-export default function UseRef() {
-  const [count, setcount] = useState(0);
+// export default function UseRef() {
+//   const [count, setcount] = useState(0);
 
-  const btnRef = useRef();
+//   const btnRef = useRef();
 
-  useEffect(() => {
-    console.log("First Rendering...");
-    btnRef.current.style.backgroundColor = "red";
-  }, []);
+//   useEffect(() => {
+//     console.log("First Rendering...");
+//     btnRef.current.style.backgroundColor = "red";
+//   }, []);
 
-  return (
-    <>
-      <div>
-        <h1>Count: {count}</h1> <br />
-        <br />
-        <button ref={btnRef} onClick={() => setcount(count + 1)}>
-          Click
-        </button>
-      </div>
-    </>
-  );
-}
+//   return (
+//     <>
+//       <div>
+//         <h1>Count: {count}</h1> <br />
+//         <br />
+//         <button ref={btnRef} onClick={() => setcount(count + 1)}>
+//           Click
+//         </button>
+//       </div>
+//     </>
+//   );
+// }

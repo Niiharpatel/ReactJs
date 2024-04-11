@@ -2,49 +2,66 @@ import axios from "axios";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router";
+import {
+  addToCart,
+  getAllCart,
+} from "../../../Redux/features/cartSlice/cartSlice";
 
 export default function AllProductCardStructure({ dataa }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
+  const [count, setCount] = useState(0);
+
   const allCartProduct = useSelector((state) => state.cartSlice.cart);
+  // const allCartProduct = useSelector((state) => state.getAllCart());
 
   function handleAddToCart(dataa) {
-    let xxx = allCartProduct.map((e) => {
+    let allcartProductTemp = allCartProduct.map((e) => {
       return { productId: e?.productId?._id, count: e?.count };
     });
-    console.log("🚀 ~ file: AllProductCardStructure.jsx:17 ~ xxx ~ xxx:", xxx);
-
-    let index = xxx.findIndex((e) => e.productId._id === dataa._id);
     console.log(
-      "🚀 ~ file: AllProductCardStructure.jsx:18 ~ handleAddToCart ~ index:",
-      index
+      "🚀 ~ file: AllProductCardStructure.jsx:17 ~ allcartProductTemp ~ allcartProductTemp:",
+      allcartProductTemp
     );
+
+    let index = allcartProductTemp.findIndex(
+      (e) => e.productId?._id === dataa._id
+    );
+    console.log("handleAddToCart ~ index:", index);
 
     if (index !== -1) {
-      xxx[index] = { ...xxx[index], count: xxx[index].count + 1 };
+      allcartProductTemp[index] = {
+        ...allcartProductTemp[index],
+        count: allcartProductTemp[index].count + 1,
+      };
+      // allcartProductTemp[index] = {
+      //   productId: allcartProductTemp[index].productId,
+      //   count: allcartProductTemp[index].count + 1,
+      // };
     } else {
-      xxx.push({ productId: dataa?._id, count: 1 });
+      console.log("--------else");
+      allcartProductTemp.push({ productId: dataa?._id, count: 1 });
     }
-    console.log(
-      "🚀 ~ file: AllProductCardStructure.jsx:29 ~ handleAddToCart ~ xxx:",
-      xxx
-    );
-    // axios({
-    //   method: "post",
-    //   url: "http://localhost:9999/cart/create",
-    //   data: {
-    //     products:
-    //   },
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //     authorization: `Barer ${JSON.parse(localStorage.getItem("token"))}`,
-    //   },
-    // })
-    //   .then((resData) => {
-    //     dispatch(getAllCart());
-    //   })
-    //   .catch((err) => {});
+    axios({
+      method: "post",
+      url: "http://localhost:9999/cart/create",
+      data: {
+        products: allcartProductTemp,
+      },
+      headers: {
+        "Content-Type": "application/json",
+        authorization: `Barer ${JSON.parse(localStorage.getItem("token"))}`,
+      },
+    })
+      .then((resData) => {
+        // state.cartSlice.getAllCart();
+        dispatch(getAllCart());
+        dispatch(addToCart());
+      })
+      .catch((err) => {
+        console.log("add cart calling done " + err);
+      });
   }
   return (
     <>
@@ -62,11 +79,9 @@ export default function AllProductCardStructure({ dataa }) {
                 <a
                   href="#"
                   className="d-flex align-items-center justify-content-center"
+                  onClick={() => handleAddToCart(dataa)}
                 >
-                  <span
-                    className="flaticon-shopping-bag"
-                    onClick={() => handleAddToCart(dataa)}
-                  ></span>
+                  <span className="flaticon-shopping-bag"></span>
                 </a>
                 <a
                   href="#"

@@ -5,7 +5,7 @@ import SimplCrud from "./SimpleCrud/SimplCrud";
 function App() {
   return (
     <>
-      <SimplCrud />
+      {/* <SimplCrud /> */}
 
       {/* <Wrapper /> */}
 

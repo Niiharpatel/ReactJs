@@ -1,9 +1,9 @@
-import React from "react";
-import Card from "../Components/Card";
+import React from 'react';
+import Card from '../Components/Card';
 
 export default function TailwindProps() {
   let info = {
-    username: "Nihar",
+    username: 'Nihar',
     age: 24,
   };
 

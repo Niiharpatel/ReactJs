@@ -1,0 +1,30 @@
+header {
+  background-color: cadetblue;
+}
+
+.header_container {
+  max-width: 1480px;
+  width: 100%;
+  margin-inline: auto;
+  padding-block: 10px;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo img {
+  max-width: 100px;
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.header_menu nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}

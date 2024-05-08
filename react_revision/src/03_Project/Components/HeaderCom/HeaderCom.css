@@ -1,0 +1,28 @@
+.header_section {
+  box-shadow: 0px 0px 8px 0px #998a8a;
+  background-color: var(--elements-color);
+  color: var(--text-color);
+}
+
+.header_container {
+  padding: 20px 0;
+  margin-inline: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.mode_section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo > h1 {
+  cursor: pointer;
+}

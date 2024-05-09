@@ -16,6 +16,7 @@ button {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 :root {
@@ -25,4 +26,16 @@ button {
   --dark-background-color: hsl(207, 26%, 17%);
   --dark-text-color: white;
   --dark-elements-color: hsl(209, 23%, 22%);
+}
+
+/* ========== Dark Mode ================== */
+
+main {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+main.dark {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
 }

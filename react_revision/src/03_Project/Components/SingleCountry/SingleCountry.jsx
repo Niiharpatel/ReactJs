@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './SingleCountry.css';
 import axios from 'axios';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 import { ShimmerContentBlock } from 'react-shimmer-effects';
+import { themeContext } from '../../Context/ThemeContext';
 
 function SingleCountry() {
+  const [isDark] = useContext(themeContext);
   const [countryData, setCountryData] = useState(null);
 
   const [notFound, setNotFound] = useState(false);
@@ -13,6 +15,9 @@ function SingleCountry() {
 
   const params = useParams();
   const countryName = params.country;
+
+  const { state } = useLocation();
+
   useEffect(() => {
     axios
       .get(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`)
@@ -34,9 +39,8 @@ function SingleCountry() {
       </>
     );
   }
-
   return (
-    <main>
+    <main className={` ${isDark && 'dark'} single_main`}>
       <div className="single_container">
         <p className="back_btn" onClick={() => history.back()}>
           <i className="fa-solid fa-arrow-left"></i>&nbsp;&nbsp;Back
@@ -74,7 +78,7 @@ function SingleCountry() {
                     <b>Population: </b>
                     <span className="population">
                       {countryData?.population
-                        ? countryData?.population.toLocaleString('en-In')
+                        ? countryData?.population.toLocaleString('en-IN')
                         : '-'}
                     </span>
                   </p>

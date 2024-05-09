@@ -17,6 +17,10 @@
   color: var(--dark-text-color);
 }
 
+.single_main {
+  height: 100vh;
+}
+
 .single_container {
   margin-inline: 20px;
 }
@@ -78,7 +82,7 @@
 }
 
 .dark .border_btn {
-  box-shadow: 0px 0px 4px 0 var(--elements-color);
+  box-shadow: 0px 0px 4px 0 var(--dark-elements-color);
 }
 
 .dark .fa-moon {
@@ -111,12 +115,17 @@
   border-radius: 4px;
   display: inline-block;
   margin-block: 5px;
-  box-shadow: 0px 0px 4px 0 var(--dark-elements-color);
+  box-shadow: 0px 0px 4px 0 #677a8a;
   margin-inline: 3px;
   cursor: pointer;
+  color: black;
 }
 
-@media (max-width: 390px) {
+.dark .border_country_btn {
+  color: white;
+}
+
+@media (max-width: 391px) {
   .country_section {
     flex-direction: column;
     margin-inline: 10px;

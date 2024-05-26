@@ -1,12 +1,12 @@
-import React from "react";
-import { useState } from "react";
-import { Button, Table } from "reactstrap";
+import React from 'react';
+import { useState } from 'react';
+import { Button, Table } from 'reactstrap';
 
 function SimplCrud() {
   // ============ CREAT ========================
   const [state, setState] = useState({
-    name: "",
-    city: "",
+    name: '',
+    city: '',
   });
 
   const inputHandler = (e) => {
@@ -19,8 +19,8 @@ function SimplCrud() {
   const setData = () => {
     setArr([...arr, state]);
     setState({
-      name: "",
-      city: "",
+      name: '',
+      city: '',
     });
   };
 
@@ -37,8 +37,8 @@ function SimplCrud() {
     if (ind || ind === 0) {
       arr.splice(ind, 1, state);
       setState({
-        name: "",
-        city: "",
+        name: '',
+        city: '',
       });
       setInd(null);
     }
@@ -80,8 +80,11 @@ function SimplCrud() {
       {/* <h1>{state.name}</h1>
       <h1>{state.city}</h1> */}
 
-      <button onClick={() => setData()}>Submit</button>
-      <button onClick={() => updateData()}>Update</button>
+      {ind !== 'null' ? (
+        <button onClick={() => updateData()}>Update</button>
+      ) : (
+        <button onClick={() => setData()}>Submit</button>
+      )}
       <button onClick={() => delAll()}>DelAll</button>
 
       <Table>
